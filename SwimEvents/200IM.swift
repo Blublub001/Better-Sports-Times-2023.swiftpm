@@ -1,20 +1,20 @@
 //
-//  Sprint100m.swift
-//
+//  SwiftUIView 2.swift
+//  
 //
 //  Created by David Popowski on 10/26/23.
 //
 
 import SwiftUI
 
-struct Sprint100m: View {
+struct IM200: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct Sprint100m_Previews: PreviewProvider {
+struct IM200_preview: PreviewProvider {
     static var previews: some View {
-        Sprint100m()
+        IM200()
     }
 }
