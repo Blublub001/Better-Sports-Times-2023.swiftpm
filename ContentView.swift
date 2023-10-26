@@ -2,8 +2,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-        SwimScreen()
+        HStack{
+            NavigationStack{
+                NavigationLink{
+                    SwimScreen()
+                }label: {
+                    VStack{
+                        Image(systemName: "gear")
+                        Text("Swim")
+                    }
+                }}
+            NavigationStack{
+                NavigationLink{
+                    TrackScreen()
+                }label: {
+                    VStack{
+                        Image(systemName: "folder")
+                        Text("Track")
+                    }
+                }}
+        }
+        
     }
 }
 
