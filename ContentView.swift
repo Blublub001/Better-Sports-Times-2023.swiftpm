@@ -5,22 +5,23 @@ struct ContentView: View {
         HStack{
             NavigationStack{
                 NavigationLink{
-                    SwimScreen()
-                }label: {
-                    VStack{
-                        Image(systemName: "gear")
-                        Text("Swim")
-                    }
-                }}
-            NavigationStack{
-                NavigationLink{
                     TrackScreen()
                 }label: {
                     VStack{
                         Image(systemName: "folder")
                         Text("Track")
                     }
-                }}
+                }
+                
+                NavigationLink{
+                    SwimScreen()
+                }label: {
+                    VStack{
+                        Image(systemName: "gear")
+                        Text("Swim")
+                    }.padding(34)
+                }
+            }
         }
         
     }
