@@ -7,6 +7,18 @@
 
 import SwiftUI
 
+var arrayOfSwimEvents: Array = [
+Free50(),
+Back100(),
+Breast100(),
+Fly100(),
+Free100(),
+Free200(),
+IM200(),
+Free500()
+] as [Any]
+
+
 struct SwimScreen: View {
     @State private var navPath = NavigationPath()
 

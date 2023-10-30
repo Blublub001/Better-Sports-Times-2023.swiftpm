@@ -7,14 +7,15 @@
 
 import SwiftUI
 
+
 struct TrackScreen: View {
     @State private var navPath = NavigationPath()
 
     var body: some View {
         NavigationStack(path: $navPath) {
-            Button("Random Event") {
-                navPath.append(Int.random(in: 1..<50))
-            }
+//            Button("Random Event") {
+//                navPath.append(Int.random(in: 1..<50))
+//            }
 
             List(1..<50) { i in
                 NavigationLink(value: "Row \(i)") {
