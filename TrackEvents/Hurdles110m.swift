@@ -6,3 +6,16 @@
 //
 
 import Foundation
+import SwiftUI
+
+struct Hurdles110m: View {
+    var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+    }
+}
+
+struct Hurdles110m_Previews: PreviewProvider {
+    static var previews: some View {
+        Hurdles110m()
+    }
+}

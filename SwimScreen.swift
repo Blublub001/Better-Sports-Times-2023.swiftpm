@@ -25,10 +25,10 @@ struct SwimScreen: View {
     var body: some View {
         NavigationStack(path: $navPath) {
             Button("Random Event") {
-                navPath.append(Int.random(in: 1..<50))
+                navPath.append(Int.random(in: 1..<9))
             }
 
-            List(1..<50) { i in
+            List(1..<9) { i in
                 NavigationLink(value: "Row \(i)") {
                     Label("Row \(i)", systemImage: "\(i).circle")
                 }
