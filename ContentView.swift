@@ -27,6 +27,11 @@ struct ContentView: View {
     }
 }
 
+struct playerAndTime: Hashable{
+    var name: String
+    var time: Double
+}
+
 struct ContentView_preview: PreviewProvider {
     static var previews: some View {
         ContentView()

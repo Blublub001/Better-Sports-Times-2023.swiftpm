@@ -36,14 +36,14 @@ struct SwimScreen: View {
     ]
     
     @State var arrayOfSwimEvents: Array = [
-    Free50(),
-    Back100(),
-    Breast100(),
-    Fly100(),
-    Free100(),
-    Free200(),
-    IM200(),
-    Free500()
+    Free50()
+//    Back100(),
+//    Breast100(),
+//    Fly100(),
+//    Free100(),
+//    Free200(),
+//    IM200(),
+//    Free500()
     ] as [any View]
 
     
@@ -54,41 +54,7 @@ struct SwimScreen: View {
             }label: {
                 Text("\(arrayOfSwimEventNames[0])")
             }
-            NavigationLink{
-                Back100()
-            }label: {
-                Text("\(arrayOfSwimEventNames[1])")
-            }
-            NavigationLink{
-                Breast100()
-            }label: {
-                Text("\(arrayOfSwimEventNames[2])")
-            }
-            NavigationLink{
-                Fly100()
-            }label: {
-                Text("\(arrayOfSwimEventNames[3])")
-            }
-            NavigationLink{
-                Free100()
-            }label: {
-                Text("\(arrayOfSwimEventNames[4])")
-            }
-            NavigationLink{
-                Free200()
-            }label: {
-                Text("\(arrayOfSwimEventNames[5])")
-            }
-            NavigationLink{
-                IM200()
-            }label: {
-                Text("\(arrayOfSwimEventNames[6])")
-            }
-            NavigationLink{
-                Free500()
-            }label: {
-                Text("\(arrayOfSwimEventNames[7])")
-            }
+            
             
             //        NavigationStack(path: $navPath) {
             //            Button("Random Event") {

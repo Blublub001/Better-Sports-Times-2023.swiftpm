@@ -8,20 +8,20 @@
 import SwiftUI
 
 var arrayOfTrackEvents: Array = [
-Hurdles110m(),
-Hurdles300m(),
-JumpHigh(),
-JumpLong(),
-JumpTriple(),
-PoleVault(),
-Sprint100m(),
-Sprint200m(),
-Sprint400m(),
-Sprint800m(),
-Sprint1600m(),
-Sprint3200m(),
-ThrowDiscus(),
-ThrowShotput()
+//Hurdles110m(),
+//Hurdles300m(),
+//JumpHigh(),
+//JumpLong(),
+//JumpTriple(),
+//PoleVault(),
+Sprint100m()
+//Sprint200m(),
+//Sprint400m(),
+//Sprint800m(),
+//Sprint1600m(),
+//Sprint3200m(),
+//ThrowDiscus(),
+//ThrowShotput()
 ] as [Any]
 
 var arrayOfTrackEventsNames: Array = [

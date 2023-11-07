@@ -8,9 +8,26 @@
 import SwiftUI
 
 struct addSwimmer: View {
-    @State var swimmyer = ""
+    @State var swimmerName = ""
+    @State var swimmerTime = ""
     var body: some View {
-        TextField("wwerwer", text: $swimmyer)
+        VStack{
+            TextField("Add swimmer here", text: $swimmerName)
+                .frame(alignment: .center)
+            TextField("Add time here", text: $swimmerTime)
+                .frame(alignment: .center)
+        
+            Button {
+                print("saving to database")
+                
+                
+            } label: {
+                ZStack{
+                    Text("Done")
+                }
+            }
+
+        }
     }
 }
 
